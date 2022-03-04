@@ -1,3 +1,4 @@
+"""Example Module"""
 import os
 import math
 
