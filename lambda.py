@@ -1,12 +1,20 @@
-import requests
+import os
+import math
 
-def handler(event, context):
-    response = requests.get("https://jsonplaceholder.typicode.com/todos/1")
-    res = {
-        "event": event,
-        "output": response.json(),
-        "context": context
-    }
-    print(res)
+# def handler(event, context):
+#     response = requests.get("https://jsonplaceholder.typicode.com/todos/1")
+#     res = {
+#         "event": event,
+#         "output": response.json(),
+#         "context": context
+#     }
+#     print(res)
 
-    return None
+#     return None
+
+
+def func1(a, b) -> str:
+    return math.floor(a+b)
+
+def func2(a, b) -> int:
+    return os.getcwd()
