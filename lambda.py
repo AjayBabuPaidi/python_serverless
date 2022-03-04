@@ -13,9 +13,9 @@ import math
 #     return None
 
 
-def func1(a, b) -> str:
-    return math.floor(a+b)
+def func1(a, b) -> int:
+    return math.floor(a + b)
 
 
-def func2(a, b) -> int:
+def func2(a, b) -> str:
     return os.getcwd()
